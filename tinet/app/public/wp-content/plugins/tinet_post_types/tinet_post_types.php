@@ -368,3 +368,60 @@ function beneficios_post_type() {
 
 }
 add_action( 'init', 'beneficios_post_type', 0 );
+
+
+//Custom ofertas empleo
+function jobSearch_post_type() {
+
+	$labels = array(
+		'name'                  => _x( 'Trabajo Tinet', 'Post Type General Name', 'jobSearch' ),
+		'menu_name'             => __( 'Trabajo Tinet', 'jobSearch' ),
+		'name_admin_bar'        => __( 'Trabajo Tinet', 'jobSearch' ),
+		'archives'              => __( 'Archivo', 'jobSearch' ),
+		'attributes'            => __( 'Atributos', 'jobSearch' ),
+		'parent_item_colon'     => __( 'Trabajo Tinet', 'jobSearch' ),
+		'add_new'               => __( 'Agregar Trabajo Tinet', 'jobSearch' ),
+		'new_item'              => __( 'Nueva Trabajo Tinet', 'jobSearch' ),
+		'edit_item'             => __( 'Editar Trabajo Tinet', 'jobSearch' ),
+		'update_item'           => __( 'Actualizar Trabajo Tinet', 'jobSearch' ),
+		'view_item'             => __( 'Ver BeneficiTrabajo Tinetos', 'jobSearch' ),
+		'view_items'            => __( 'Ver BenefTrabajo Tineticios', 'jobSearch' ),
+		'search_items'          => __( 'Buscar Trabajo Tinet', 'jobSearch' ),
+		'not_found'             => __( 'No Encontrado', 'jobSearch' ),
+		'not_found_in_trash'    => __( 'No Encontrado en Papelera', 'jobSearch' ),
+		'featured_image'        => __( 'Imagen Destacada', 'jobSearch' ),
+		'set_featured_image'    => __( 'Guardar Imagen destacada', 'jobSearch' ),
+		'remove_featured_image' => __( 'Eliminar Imagen destacada', 'jobSearch' ),
+		'use_featured_image'    => __( 'Utilizar como Imagen Destacada', 'jobSearch' ),
+		'insert_into_item'      => __( 'Insertar en Trabajo Tinet', 'jobSearch' ),
+		'uploaded_to_this_item' => __( 'Agregado en Trabajo Tinet', 'jobSearch' ),
+		'items_list'            => __( 'Lista de Trabajo Tinet', 'jobSearch' ),
+		'items_list_navigation' => __( 'Navegación de Trabajo Tinet', 'jobSearch' ),
+		'filter_items_list'     => __( 'Filtrar Trabajo Tinet', 'jobSearch' ),
+		
+	);
+	$args = array(
+		'label'                 => __( 'Trabajo Tinet', 'jobSearch' ),
+		'description'           => __( 'Trabajo Tinet para el Sitio Web', 'jobSearch' ),
+		'labels'                => $labels,
+		'supports'              => array( 'title', 'editor', 'thumbnail'),
+        'hierarchical'          => true, //true = post (no puedes generar elemento padre de un pagina),false = paginas (puedes asignarle elemento padre a la pagina)
+		'public'                => true, 
+		'show_ui'               => true,
+		'show_in_menu'          => true,
+        'menu_position'         => 11,
+        'menu_icon'             => 'dashicons-search',
+		'show_in_admin_bar'     => true,
+		'show_in_nav_menus'     => true,
+		'can_export'            => true,
+		'has_archive'           => true,
+		'exclude_from_search'   => false,
+		'publicly_queryable'    => true,
+		'capability_type'       => 'page',
+		'show_in_rest'          => true,
+		'rewrite'				=> true,
+	);
+	register_post_type( 'jobSearch', $args );
+
+}
+add_action( 'init', 'jobSearch_post_type', 0 );

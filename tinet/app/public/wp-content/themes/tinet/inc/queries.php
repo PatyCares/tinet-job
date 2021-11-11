@@ -150,3 +150,178 @@ function slider_culturaViva() { ?>
             <?php endwhile; wp_reset_postdata(); ?>
 <?php
 }
+
+function beneficios() { ?>
+
+    <?php  
+        $args = array(
+            'post_type' => 'beneficios',
+            'posts_per_page' => 13,
+             ); 
+                $beneficios = new WP_Query($args);
+                while($beneficios -> have_posts() ): $beneficios -> the_post(); ?>
+
+                <?php 
+                    $titulo_beneficio = get_field('titulo_beneficio');
+				    $descripcion_beneficio = get_field('descripcion_beneficio');
+				    $titulo_beneficio_2 = get_field('titulo_beneficio_2');
+                    $descripcion_beneficio_2 =get_field('descripcion_beneficio_2');
+                    $titulo_beneficio_3 = get_field('titulo_beneficio_3');
+                    $descripcion_beneficio_3 = get_field('descripcion_beneficio_3');
+				    $titulo_beneficio_4 = get_field('titulo_beneficio_4');
+                    $descripcion_beneficio_4 = get_field('descripcion_beneficio_4');
+                    $titulo_beneficio_5 = get_field('titulo_beneficio_5');
+                    $descripcion_beneficio_5 = get_field('descripcion_beneficio_5');
+                    $titulo_beneficio_5 = get_field('titulo_beneficio_5');
+                    $descripcion_beneficio_5 = get_field('descripcion_beneficio_5');
+                    $titulo_beneficio_6 = get_field('titulo_beneficio_6');
+                    $descripcion_beneficio_6 = get_field('descripcion_beneficio_6');
+                    $titulo_beneficio_7 = get_field('titulo_beneficio_7');
+                    $descripcion_beneficio_7 = get_field('descripcion_beneficio_7');
+                    $titulo_beneficio_8 = get_field('titulo_beneficio_8');
+                    $descripcion_beneficio_8 = get_field('descripcion_beneficio_8');
+                    $titulo_beneficio_9 = get_field('titulo_beneficio_9');
+                    $descripcion_beneficio_9 = get_field('descripcion_beneficio_9');
+                    $titulo_beneficio_10 = get_field('titulo_beneficio_10');
+                    $descripcion_beneficio_10 = get_field('descripcion_beneficio_10');
+                    $titulo_beneficio_11 = get_field('titulo_beneficio_11');
+                    $descripcion_beneficio_11 = get_field('descripcion_beneficio_11');
+                    $titulo_beneficio_12 = get_field('titulo_beneficio_12');
+                    $descripcion_beneficio_12 = get_field('descripcion_beneficio_12');
+                    $titulo_beneficio_13 = get_field('titulo_beneficio_13');
+                    $descripcion_beneficio_13 = get_field('descripcion_beneficio_13');
+                    $titulo_beneficio_14 = get_field('titulo_beneficio_14');
+                    $descripcion_beneficio_14 = get_field('descripcion_beneficio_14');
+                    $titulo_beneficio_15 = get_field('titulo_beneficio_15');
+                    $descripcion_beneficio_15 = get_field('descripcion_beneficio_15');
+                ?>
+          <div class="row" style="z-index:2">
+                <div class="col-4">
+                    <div class="select" tabindex="1">
+                        <input class="selectopt" name="test" type="radio" id="opt1" checked>
+                        <label for="opt1" class="option"><?php echo $titulo_beneficio;?></label>
+                        <input class="selectopt" name="test" type="radio" id="opt2">
+                        <label for="opt2" class="option"><?php echo $descripcion_beneficio;?></label>
+                    </div>
+                </div>
+           
+                <div class="col-4">
+                    <div class="select" tabindex="1">
+                        <input class="selectopt" name="test1" type="radio" id="opt1" checked>
+                        <label for="opt1" class="option"><?php echo $titulo_beneficio_2;?></label>
+                        <input class="selectopt" name="test1" type="radio" id="opt2">
+                        <label for="opt2" class="option"><?php echo $descripcion_beneficio_2;?></label>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="select" tabindex="1">
+                        <input class="selectopt" name="test2" type="radio" id="opt1" checked>
+                        <label for="opt1" class="option"><?php echo $titulo_beneficio_3;?></label>
+                        <input class="selectopt" name="test2" type="radio" id="opt2">
+                        <label for="opt2" class="option"><?php echo $descripcion_beneficio_3;?></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5" style="z-index:1">
+                <div class="col-4">
+                    <div class="select" tabindex="1">
+                        <input class="selectopt" name="test3" type="radio" id="opt1" checked>
+                        <label for="opt1" class="option"><?php echo $titulo_beneficio_4;?></label>
+                        <input class="selectopt" name="tes3" type="radio" id="opt2">
+                        <label for="opt2" class="option"><?php echo $descripcion_beneficio_4;?></label>
+                    </div>
+                </div>
+           
+                <div class="col-4">
+                    <div class="select" tabindex="1">
+                        <input class="selectopt" name="test4" type="radio" id="opt1" checked>
+                        <label for="opt1" class="option"><?php echo $titulo_beneficio_5;?></label>
+                        <input class="selectopt" name="test4" type="radio" id="opt2">
+                        <label for="opt2" class="option"><?php echo $descripcion_beneficio_5;?></label>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="select" tabindex="1">
+                        <input class="selectopt" name="test5" type="radio" id="opt1" checked>
+                        <label for="opt1" class="option"><?php echo $titulo_beneficio_6;?></label>
+                        <input class="selectopt" name="test5" type="radio" id="opt2">
+                        <label for="opt2" class="option"><?php echo $descripcion_beneficio_6;?></label>
+                    </div>
+                </div>
+            </div>
+
+            <?php endwhile; wp_reset_postdata(); ?>
+<?php
+}
+
+
+function search_job() { ?>
+
+    <?php  
+        $args = array(
+            'post_type' => 'jobSearch',
+            'posts_per_page' => 9,
+            'order'   => 'DESC',
+             ); 
+                $jobSearch = new WP_Query($args);
+                while($jobSearch -> have_posts() ): $jobSearch -> the_post(); ?>
+
+                    <?php 
+                    $ubicacion_oferta_laboral = get_field('ubicacion_oferta_laboral');
+                    $fecha_publicacion = get_field('fecha_publicacion');
+				    $funciones_del_cargo = get_field('funciones_del_cargo');
+				    $requisitos = get_field('requisitos');
+                    $requisitos_deseables_yo_excluyentes =get_field('requisitos_deseables_yo_excluyentes');
+                    $beneficio_horarios = get_field('beneficio_horarios');
+                    $beneficio_salarial = get_field('beneficio_salarial');
+				    $beneficio_tipo_trabajo = get_field('beneficio_tipo_trabajo');
+                    $categoria_del_trabajo = get_field('categoria_del_trabajo');
+                    
+                ?>
+
+                    <div id="Destacados" class="tabcontent">
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3><?php the_title(); ?></h3>
+                                    <p><?php echo $ubicacion_oferta_laboral; ?></p>
+                                    <p><?php echo $fecha_publicacion;?></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Tecnología" class="tabcontent">
+                        <h3>aqui va Tecnología</h3>
+                    </div>
+
+                    <div id="Consultoría" class="tabcontent">
+                        <h3>aqui va Consultoría</h3>
+                    </div>
+                    
+                    <div id="Comercial" class="tabcontent">
+                        <h3>aqui va Comercial</h3>
+                    </div>
+
+                    <div id="Marketing" class="tabcontent">
+                        <h3>aqui va Marketing</h3>
+                    </div>
+
+                    <div id="Administración" class="tabcontent">
+                        <h3>aqui va Administración</h3>
+                    </div>
+
+                    <div id="BPO" class="tabcontent">
+                        <h3>aqui va BPO</h3>
+                    </div>
+
+                    <div id="Diseño" class="tabcontent">
+                        <h3>aqui va Diseño</h3>
+                    </div>
+
+            
+            <?php endwhile; wp_reset_postdata(); ?>
+<?php
+}

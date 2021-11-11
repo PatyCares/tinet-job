@@ -516,3 +516,19 @@ Stack trace:
 #3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
 #4 {main}
   thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 53
+[11-Nov-2021 15:47:11 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 312
+[11-Nov-2021 15:47:12 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 312
+[11-Nov-2021 18:19:12 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 370
+[11-Nov-2021 18:20:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 370
+[11-Nov-2021 18:20:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 370
+[11-Nov-2021 18:26:28 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 369
+[11-Nov-2021 18:27:17 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 369
+[11-Nov-2021 18:41:58 UTC] PHP Parse error:  syntax error, unexpected '$fecha_publicacion' (T_VARIABLE) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 271
+[11-Nov-2021 20:24:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/template-parts/ofertas-empleos.php on line 59
+[11-Nov-2021 20:27:09 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/template-parts/ofertas-empleos.php on line 29
+[11-Nov-2021 20:56:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 320
+[11-Nov-2021 20:58:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 328
+[11-Nov-2021 20:58:12 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 328
+[11-Nov-2021 20:58:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 328
+[11-Nov-2021 21:07:50 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting variable (T_VARIABLE) or '{' or '$' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 286
+[11-Nov-2021 21:07:50 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting variable (T_VARIABLE) or '{' or '$' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 286
