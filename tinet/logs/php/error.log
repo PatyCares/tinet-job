@@ -1,0 +1,518 @@
+[08-Nov-2021 17:21:34 UTC] PHP Parse error:  syntax error, unexpected ':' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/header.php on line 6
+[08-Nov-2021 21:11:31 UTC] PHP Parse error:  syntax error, unexpected ''description'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/tinet_post_types/tinet_post_types.php on line 48
+[08-Nov-2021 21:11:34 UTC] PHP Parse error:  syntax error, unexpected ''description'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/tinet_post_types/tinet_post_types.php on line 48
+[08-Nov-2021 21:11:35 UTC] PHP Parse error:  syntax error, unexpected ''description'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/tinet_post_types/tinet_post_types.php on line 48
+[08-Nov-2021 21:44:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 24
+[08-Nov-2021 21:44:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 24
+[08-Nov-2021 21:44:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 24
+[08-Nov-2021 22:38:52 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 29
+[08-Nov-2021 22:38:53 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 29
+[09-Nov-2021 19:46:03 UTC] PHP Parse error:  syntax error, unexpected 'Way' (T_STRING), expecting ')' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/tinet_post_types/tinet_post_types.php on line 238
+[09-Nov-2021 19:46:05 UTC] PHP Parse error:  syntax error, unexpected 'Way' (T_STRING), expecting ')' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/tinet_post_types/tinet_post_types.php on line 238
+[09-Nov-2021 19:46:05 UTC] PHP Parse error:  syntax error, unexpected 'Way' (T_STRING), expecting ')' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/tinet_post_types/tinet_post_types.php on line 238
+[09-Nov-2021 19:46:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'lista_tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:46:24 UTC] PHP Stack trace:
+[09-Nov-2021 19:46:24 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/edit.php:0
+[09-Nov-2021 19:46:24 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/edit.php:10
+[09-Nov-2021 19:46:24 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin.php:34
+[09-Nov-2021 19:46:24 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:46:24 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:46:24 UTC] PHP   6. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:46:24 UTC] PHP   7. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:46:24 UTC] PHP   8. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:46:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'lista_tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:46:26 UTC] PHP Stack trace:
+[09-Nov-2021 19:46:26 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[09-Nov-2021 19:46:26 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[09-Nov-2021 19:46:26 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[09-Nov-2021 19:46:26 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:46:26 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:46:26 UTC] PHP   6. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:46:26 UTC] PHP   7. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:46:26 UTC] PHP   8. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:46:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'lista_tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:46:26 UTC] PHP Stack trace:
+[09-Nov-2021 19:46:26 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[09-Nov-2021 19:46:26 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[09-Nov-2021 19:46:26 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:46:26 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:46:26 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:46:26 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:46:26 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:46:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'lista_tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:46:40 UTC] PHP Stack trace:
+[09-Nov-2021 19:46:40 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[09-Nov-2021 19:46:40 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[09-Nov-2021 19:46:40 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:46:40 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:46:40 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:46:40 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:46:40 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:46:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'lista_tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:46:55 UTC] PHP Stack trace:
+[09-Nov-2021 19:46:55 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[09-Nov-2021 19:46:55 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[09-Nov-2021 19:46:55 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:46:55 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:46:55 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:46:55 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:46:55 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:55:33 UTC] PHP Parse error:  syntax error, unexpected ''update_item'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/tinet_post_types/tinet_post_types.php on line 215
+[09-Nov-2021 19:55:35 UTC] PHP Parse error:  syntax error, unexpected ''update_item'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/tinet_post_types/tinet_post_types.php on line 215
+[09-Nov-2021 19:55:35 UTC] PHP Parse error:  syntax error, unexpected ''update_item'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/tinet_post_types/tinet_post_types.php on line 215
+[09-Nov-2021 19:56:28 UTC] PHP Parse error:  syntax error, unexpected ''update_item'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/tinet_post_types/tinet_post_types.php on line 215
+[09-Nov-2021 19:56:29 UTC] PHP Parse error:  syntax error, unexpected ''update_item'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/tinet_post_types/tinet_post_types.php on line 215
+[09-Nov-2021 19:56:53 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:56:53 UTC] PHP Stack trace:
+[09-Nov-2021 19:56:53 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/index.php:0
+[09-Nov-2021 19:56:53 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/index.php:10
+[09-Nov-2021 19:56:53 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin.php:34
+[09-Nov-2021 19:56:53 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:56:53 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:56:53 UTC] PHP   6. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:56:53 UTC] PHP   7. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:56:53 UTC] PHP   8. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:56:54 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:56:54 UTC] PHP Stack trace:
+[09-Nov-2021 19:56:54 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-cron.php:0
+[09-Nov-2021 19:56:54 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-cron.php:44
+[09-Nov-2021 19:56:54 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:56:54 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:56:54 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:56:54 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:56:54 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:56:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:56:55 UTC] PHP Stack trace:
+[09-Nov-2021 19:56:55 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[09-Nov-2021 19:56:55 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[09-Nov-2021 19:56:55 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[09-Nov-2021 19:56:55 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:56:55 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:56:55 UTC] PHP   6. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:56:55 UTC] PHP   7. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:56:55 UTC] PHP   8. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:56:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:56:55 UTC] PHP Stack trace:
+[09-Nov-2021 19:56:55 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[09-Nov-2021 19:56:55 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[09-Nov-2021 19:56:55 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:56:55 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:56:55 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:56:55 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:56:55 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:57:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:57:17 UTC] PHP Stack trace:
+[09-Nov-2021 19:57:17 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[09-Nov-2021 19:57:17 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[09-Nov-2021 19:57:17 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:57:17 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:57:17 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:57:17 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:57:17 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:57:20 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:57:20 UTC] PHP Stack trace:
+[09-Nov-2021 19:57:20 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[09-Nov-2021 19:57:20 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[09-Nov-2021 19:57:20 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:57:20 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:57:20 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:57:20 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:57:20 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:57:31 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:57:31 UTC] PHP Stack trace:
+[09-Nov-2021 19:57:31 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[09-Nov-2021 19:57:31 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[09-Nov-2021 19:57:31 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:57:31 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:57:31 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:57:31 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:57:31 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:57:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:57:34 UTC] PHP Stack trace:
+[09-Nov-2021 19:57:34 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/edit.php:0
+[09-Nov-2021 19:57:34 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/edit.php:10
+[09-Nov-2021 19:57:34 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin.php:34
+[09-Nov-2021 19:57:34 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:57:34 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:57:34 UTC] PHP   6. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:57:34 UTC] PHP   7. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:57:34 UTC] PHP   8. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:57:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:57:35 UTC] PHP Stack trace:
+[09-Nov-2021 19:57:35 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[09-Nov-2021 19:57:35 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[09-Nov-2021 19:57:35 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[09-Nov-2021 19:57:35 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:57:35 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:57:35 UTC] PHP   6. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:57:35 UTC] PHP   7. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:57:35 UTC] PHP   8. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:57:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:57:35 UTC] PHP Stack trace:
+[09-Nov-2021 19:57:35 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[09-Nov-2021 19:57:35 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[09-Nov-2021 19:57:35 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:57:35 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:57:35 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:57:35 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:57:35 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:57:51 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:57:51 UTC] PHP Stack trace:
+[09-Nov-2021 19:57:51 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[09-Nov-2021 19:57:51 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[09-Nov-2021 19:57:51 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:57:51 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:57:51 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:57:51 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:57:51 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:58:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:58:17 UTC] PHP Stack trace:
+[09-Nov-2021 19:58:17 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[09-Nov-2021 19:58:17 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[09-Nov-2021 19:58:17 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:58:17 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:58:17 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:58:17 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:58:17 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:58:30 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:58:30 UTC] PHP Stack trace:
+[09-Nov-2021 19:58:30 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/edit.php:0
+[09-Nov-2021 19:58:30 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/edit.php:10
+[09-Nov-2021 19:58:30 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin.php:34
+[09-Nov-2021 19:58:30 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:58:30 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:58:30 UTC] PHP   6. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:58:30 UTC] PHP   7. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:58:30 UTC] PHP   8. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:58:31 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:58:31 UTC] PHP Stack trace:
+[09-Nov-2021 19:58:31 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[09-Nov-2021 19:58:31 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[09-Nov-2021 19:58:31 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[09-Nov-2021 19:58:31 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:58:31 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:58:31 UTC] PHP   6. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:58:31 UTC] PHP   7. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:58:31 UTC] PHP   8. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:58:31 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:58:31 UTC] PHP Stack trace:
+[09-Nov-2021 19:58:31 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[09-Nov-2021 19:58:31 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[09-Nov-2021 19:58:31 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:58:31 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:58:31 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:58:31 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:58:31 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 19:58:47 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 19:58:47 UTC] PHP Stack trace:
+[09-Nov-2021 19:58:47 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[09-Nov-2021 19:58:47 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[09-Nov-2021 19:58:47 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 19:58:47 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 19:58:47 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 19:58:47 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 19:58:47 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 20:00:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinet_way' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 20:00:48 UTC] PHP Stack trace:
+[09-Nov-2021 20:00:48 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[09-Nov-2021 20:00:48 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[09-Nov-2021 20:00:48 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 20:00:48 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 20:00:48 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 20:00:48 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 20:00:48 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 20:01:25 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinetWay' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 20:01:25 UTC] PHP Stack trace:
+[09-Nov-2021 20:01:25 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[09-Nov-2021 20:01:25 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[09-Nov-2021 20:01:25 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 20:01:25 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 20:01:25 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 20:01:25 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 20:01:25 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 20:01:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinetWay' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 20:01:26 UTC] PHP Stack trace:
+[09-Nov-2021 20:01:26 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/edit.php:0
+[09-Nov-2021 20:01:26 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/edit.php:10
+[09-Nov-2021 20:01:26 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin.php:34
+[09-Nov-2021 20:01:26 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 20:01:26 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 20:01:26 UTC] PHP   6. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 20:01:26 UTC] PHP   7. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 20:01:26 UTC] PHP   8. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 20:01:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinetWay' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 20:01:27 UTC] PHP Stack trace:
+[09-Nov-2021 20:01:27 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[09-Nov-2021 20:01:27 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[09-Nov-2021 20:01:27 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[09-Nov-2021 20:01:27 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 20:01:27 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 20:01:27 UTC] PHP   6. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 20:01:27 UTC] PHP   7. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 20:01:27 UTC] PHP   8. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 20:01:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinetWay' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 20:01:27 UTC] PHP Stack trace:
+[09-Nov-2021 20:01:27 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[09-Nov-2021 20:01:27 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[09-Nov-2021 20:01:27 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 20:01:27 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 20:01:27 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 20:01:27 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 20:01:27 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[09-Nov-2021 20:01:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'tinetWay' not found or invalid function name in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php on line 303
+[09-Nov-2021 20:01:42 UTC] PHP Stack trace:
+[09-Nov-2021 20:01:42 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[09-Nov-2021 20:01:42 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[09-Nov-2021 20:01:42 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[09-Nov-2021 20:01:42 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[09-Nov-2021 20:01:42 UTC] PHP   5. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:578
+[09-Nov-2021 20:01:42 UTC] PHP   6. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[09-Nov-2021 20:01:42 UTC] PHP   7. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[10-Nov-2021 18:19:59 UTC] PHP Parse error:  syntax error, unexpected ''attributes'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/tinet_post_types/tinet_post_types.php on line 324
+[10-Nov-2021 18:20:01 UTC] PHP Parse error:  syntax error, unexpected ''attributes'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/tinet_post_types/tinet_post_types.php on line 324
+[10-Nov-2021 18:20:02 UTC] PHP Parse error:  syntax error, unexpected ''attributes'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/tinet_post_types/tinet_post_types.php on line 324
+[10-Nov-2021 21:49:58 UTC] PHP Warning:  require_once(/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scssphp/scssphp/scss.inc.php): failed to open stream: No such file or directory in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:49:58 UTC] PHP Stack trace:
+[10-Nov-2021 21:49:58 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:49:58 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:49:58 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:49:58 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:49:58 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:49:58 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:49:58 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scssphp/scssphp/scss.inc.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:49:58 UTC] PHP Stack trace:
+[10-Nov-2021 21:49:58 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:49:58 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:49:58 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:49:58 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:49:58 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:49:58 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:49:58 UTC] PHP Warning:  require_once(/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scssphp/scssphp/scss.inc.php): failed to open stream: No such file or directory in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:49:58 UTC] PHP Stack trace:
+[10-Nov-2021 21:49:58 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:49:58 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:49:58 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:49:58 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:49:58 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:49:58 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:49:58 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scssphp/scssphp/scss.inc.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:49:58 UTC] PHP Stack trace:
+[10-Nov-2021 21:49:58 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:49:58 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:49:58 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:49:58 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:49:58 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:49:58 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:51:03 UTC] PHP Warning:  require_once(/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scssphp/scss.inc.php): failed to open stream: No such file or directory in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:51:03 UTC] PHP Stack trace:
+[10-Nov-2021 21:51:03 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:51:03 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:51:03 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:51:03 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:51:03 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:51:03 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:51:03 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scssphp/scss.inc.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:51:03 UTC] PHP Stack trace:
+[10-Nov-2021 21:51:03 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:51:03 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:51:03 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:51:03 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:51:03 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:51:03 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:51:03 UTC] PHP Warning:  require_once(/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scssphp/scss.inc.php): failed to open stream: No such file or directory in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:51:03 UTC] PHP Stack trace:
+[10-Nov-2021 21:51:03 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:51:03 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:51:03 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:51:03 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:51:03 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:51:03 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:51:03 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scssphp/scss.inc.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:51:03 UTC] PHP Stack trace:
+[10-Nov-2021 21:51:03 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:51:03 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:51:03 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:51:03 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:51:03 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:51:03 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:53:28 UTC] PHP Warning:  require_once(/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scss.inc.php): failed to open stream: No such file or directory in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:53:28 UTC] PHP Stack trace:
+[10-Nov-2021 21:53:28 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:53:28 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:53:28 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:53:28 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:53:28 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:53:28 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:53:28 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scss.inc.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:53:28 UTC] PHP Stack trace:
+[10-Nov-2021 21:53:28 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:53:28 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:53:28 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:53:28 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:53:28 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:53:28 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:53:28 UTC] PHP Warning:  require_once(/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scss.inc.php): failed to open stream: No such file or directory in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:53:28 UTC] PHP Stack trace:
+[10-Nov-2021 21:53:28 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:53:28 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:53:28 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:53:28 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:53:28 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:53:28 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:53:28 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scss.inc.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:53:28 UTC] PHP Stack trace:
+[10-Nov-2021 21:53:28 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:53:28 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:53:28 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:53:28 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:53:28 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:53:28 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:53:29 UTC] PHP Warning:  require_once(/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scss.inc.php): failed to open stream: No such file or directory in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:53:29 UTC] PHP Stack trace:
+[10-Nov-2021 21:53:29 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:53:29 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:53:29 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:53:29 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:53:29 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:53:29 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:53:29 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scss.inc.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:53:29 UTC] PHP Stack trace:
+[10-Nov-2021 21:53:29 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:53:29 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:53:29 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:53:29 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:53:29 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:53:29 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:53:30 UTC] PHP Warning:  require_once(/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scss.inc.php): failed to open stream: No such file or directory in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:53:30 UTC] PHP Stack trace:
+[10-Nov-2021 21:53:30 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:53:30 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:53:30 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:53:30 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:53:30 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:53:30 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:53:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scss.inc.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:53:30 UTC] PHP Stack trace:
+[10-Nov-2021 21:53:30 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:53:30 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:53:30 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:53:30 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:53:30 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:53:30 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:54:12 UTC] PHP Warning:  require(/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scss.inc.php): failed to open stream: No such file or directory in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:54:12 UTC] PHP Stack trace:
+[10-Nov-2021 21:54:12 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:54:12 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:54:12 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:54:12 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:54:12 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:54:12 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:54:12 UTC] PHP Fatal error:  require(): Failed opening required '/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scss.inc.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:54:12 UTC] PHP Stack trace:
+[10-Nov-2021 21:54:12 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:54:12 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:54:12 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:54:12 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:54:12 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:54:12 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:54:12 UTC] PHP Warning:  require(/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scss.inc.php): failed to open stream: No such file or directory in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:54:12 UTC] PHP Stack trace:
+[10-Nov-2021 21:54:12 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:54:12 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:54:12 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:54:12 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:54:12 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:54:12 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:54:12 UTC] PHP Fatal error:  require(): Failed opening required '/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/scss.inc.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 5
+[10-Nov-2021 21:54:12 UTC] PHP Stack trace:
+[10-Nov-2021 21:54:12 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:54:12 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:54:12 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:54:12 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:54:12 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:54:12 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:59:24 UTC] PHP Warning:  require(/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php): failed to open stream: No such file or directory in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 4
+[10-Nov-2021 21:59:24 UTC] PHP Stack trace:
+[10-Nov-2021 21:59:24 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:59:24 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:59:24 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:59:24 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:59:24 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:59:24 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:59:24 UTC] PHP Fatal error:  require(): Failed opening required '/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 4
+[10-Nov-2021 21:59:24 UTC] PHP Stack trace:
+[10-Nov-2021 21:59:24 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:59:24 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:59:24 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:59:24 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:59:24 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:59:24 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:59:24 UTC] PHP Warning:  require(/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php): failed to open stream: No such file or directory in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 4
+[10-Nov-2021 21:59:24 UTC] PHP Stack trace:
+[10-Nov-2021 21:59:24 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:59:24 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:59:24 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:59:24 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:59:24 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:59:24 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:59:24 UTC] PHP Fatal error:  require(): Failed opening required '/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 4
+[10-Nov-2021 21:59:24 UTC] PHP Stack trace:
+[10-Nov-2021 21:59:24 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:59:24 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:59:24 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:59:24 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:59:24 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:59:24 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:59:26 UTC] PHP Warning:  require(/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php): failed to open stream: No such file or directory in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 4
+[10-Nov-2021 21:59:26 UTC] PHP Stack trace:
+[10-Nov-2021 21:59:26 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:59:26 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:59:26 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:59:26 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:59:26 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:59:26 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:59:26 UTC] PHP Fatal error:  require(): Failed opening required '/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 4
+[10-Nov-2021 21:59:26 UTC] PHP Stack trace:
+[10-Nov-2021 21:59:26 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:59:26 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:59:26 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:59:26 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:59:26 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:59:26 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:59:26 UTC] PHP Warning:  require(/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php): failed to open stream: No such file or directory in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 4
+[10-Nov-2021 21:59:26 UTC] PHP Stack trace:
+[10-Nov-2021 21:59:26 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:59:26 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:59:26 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:59:26 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:59:26 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:59:26 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 21:59:26 UTC] PHP Fatal error:  require(): Failed opening required '/Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 4
+[10-Nov-2021 21:59:26 UTC] PHP Stack trace:
+[10-Nov-2021 21:59:26 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[10-Nov-2021 21:59:26 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[10-Nov-2021 21:59:26 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:13
+[10-Nov-2021 21:59:26 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[10-Nov-2021 21:59:26 UTC] PHP   5. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[10-Nov-2021 21:59:26 UTC] PHP   6. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[10-Nov-2021 22:00:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function slider_principal() in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php:4
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
+#3 {main}
+  thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php on line 4
+[10-Nov-2021 22:09:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 16
+[10-Nov-2021 22:09:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 16
+[10-Nov-2021 22:10:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 17
+[10-Nov-2021 22:10:17 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 17
+[10-Nov-2021 22:10:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 17
+[10-Nov-2021 22:10:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 17
+[10-Nov-2021 22:26:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php:53
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php(28): nuestra_experiencia()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include('/Users/paty/Doc...')
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
+#4 {main}
+  thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 53

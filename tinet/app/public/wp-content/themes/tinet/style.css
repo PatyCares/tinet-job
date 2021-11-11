@@ -1,0 +1,174 @@
+/*
+    Theme Name: tinet LP
+    Theme URI:
+    Author: paty cares
+    Author URI: https://github.com/PatyCares
+    Description: Theme diseñado para tinet 
+    Version: 1.0
+    License: GNU General Public License v2 or late
+    License URI: https://www.gnu.org/licenses/gpl-2.0.html
+    Tags: CSS Grid Gutenberg, Flexbox, mobile first
+    Text Domain: tinet LP
+
+*/
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Mulish', sans-serif !important;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+h1, h2, h3,h4 {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 900;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+.foto img {
+    border-radius: 47%;
+    width: 70px;
+}
+
+
+
+/* input select */
+
+/* 
+.select {
+	width: 225px;
+	height: 40px;
+	cursor: pointer;
+	background-color: white;
+	box-shadow: 0 2px 0 white;
+	border-radius: 2px;
+	
+	&_expand {
+		width: 0;
+		height: 40px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		
+		&::after {
+			content: '\003E';
+			position: absolute;
+			top: 50%;
+			right: 0;
+			transform: translate(-50%, -50%) rotate(90deg) scaleY(1.75);
+			color: #3e3e3e;
+			font-size: 28px;
+			pointer-events: none;
+			z-index: 2;
+			transition: all 250ms cubic-bezier(.4,.25,.3,1);
+			opacity: .6;
+		}
+		
+		&:hover::after {opacity: 1}
+
+		&:checked::after {transform: translate(-50%, -50%) rotate(90deg) scaleX(-1) scaleY(1.75);}
+	}
+	
+	&_expandLabel {
+		display: block;
+		width: 100%;
+		height: 40px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		cursor: pointer;
+	}
+	
+	&_close {display: none}
+	
+	&_closeLabel {
+		width: 100vw;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: none;
+	}
+	
+	&_items {
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: 2px solid #2fb5d1;
+		border-radius: 2px;
+		padding-top: 40px;
+	}
+	
+	&_input {display: none}
+	
+	&_label {
+		transition: all 250ms cubic-bezier(.4,.25,.3,1);
+		display: block;
+		height: 0;
+		font-size: 1.2rem;
+		line-height: 40px;
+		overflow: hidden;
+		color: #3e3e3e;
+		background-color: #fff;
+		cursor: pointer;
+		padding-left: 20px;
+		
+		&-placeholder {
+			height: 40px;
+			vertical-align: middle;
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: .6;
+			background-color: transparent;
+		}
+	}
+	
+	&_expand:checked {
+		+ .select_closeLabel {
+			display: block;
+			
+			+ .select_options {
+				.select_label {
+					height: 40px;
+					&:hover {background-color: #f7f7f7}
+				}
+				
+				+ .select_expandLabel {display: none}
+			}
+		}
+	}
+	
+	&_input:checked + .select_label {
+		height: 40px;
+		margin-top: -40px;
+	}
+} */
