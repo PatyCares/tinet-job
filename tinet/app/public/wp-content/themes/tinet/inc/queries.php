@@ -588,13 +588,7 @@ function job_tinet_diseño() { ?>
 
 function modal_job() { ?>
 
-<?php 
-        global $post;   
-        $post->ID();
-        global $wp_query; $post_id = $wp_query->get_queried_object_id();
-        global $wp_query;  $post_id = $wp_query->post->ID;
-        get_the_ID(); 
-?>
+
     
     <?php  
         

@@ -796,3 +796,111 @@ Stack trace:
 #4 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
 #5 {main}
   thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 593
+[15-Nov-2021 18:44:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::ID() in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php:593
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php(311): modal_job()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php(112): job_tinet_destacados()
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include('/Users/paty/Doc...')
+#3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#4 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
+#5 {main}
+  thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 593
+[15-Nov-2021 19:04:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::ID() in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php:593
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php(311): modal_job()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php(112): job_tinet_destacados()
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include('/Users/paty/Doc...')
+#3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#4 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
+#5 {main}
+  thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 593
+[15-Nov-2021 19:07:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::ID() in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php:593
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php(311): modal_job()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php(112): job_tinet_destacados()
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include('/Users/paty/Doc...')
+#3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#4 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
+#5 {main}
+  thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 593
+[15-Nov-2021 19:08:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::ID() in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php:593
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php(311): modal_job()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php(112): job_tinet_destacados()
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include('/Users/paty/Doc...')
+#3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#4 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
+#5 {main}
+  thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 593
+[15-Nov-2021 19:12:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::ID() in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php:593
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php(311): modal_job()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php(112): job_tinet_destacados()
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include('/Users/paty/Doc...')
+#3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#4 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
+#5 {main}
+  thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 593
+[15-Nov-2021 19:12:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::ID() in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php:593
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php(311): modal_job()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php(112): job_tinet_destacados()
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include('/Users/paty/Doc...')
+#3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#4 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
+#5 {main}
+  thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 593
+[15-Nov-2021 19:14:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::ID() in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php:593
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php(311): modal_job()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php(112): job_tinet_destacados()
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include('/Users/paty/Doc...')
+#3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#4 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
+#5 {main}
+  thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 593
+[15-Nov-2021 19:15:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::ID() in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php:593
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php(311): modal_job()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php(112): job_tinet_destacados()
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include('/Users/paty/Doc...')
+#3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#4 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
+#5 {main}
+  thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 593
+[15-Nov-2021 19:16:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::ID() in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php:593
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php(311): modal_job()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php(112): job_tinet_destacados()
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include('/Users/paty/Doc...')
+#3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#4 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
+#5 {main}
+  thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 593
+[15-Nov-2021 19:16:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::ID() in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php:593
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php(311): modal_job()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php(112): job_tinet_destacados()
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include('/Users/paty/Doc...')
+#3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#4 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
+#5 {main}
+  thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 593
+[15-Nov-2021 19:17:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::ID() in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php:593
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php(311): modal_job()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php(112): job_tinet_destacados()
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include('/Users/paty/Doc...')
+#3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#4 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
+#5 {main}
+  thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 593
+[15-Nov-2021 19:21:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::ID() in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php:593
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php(311): modal_job()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php(112): job_tinet_destacados()
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include('/Users/paty/Doc...')
+#3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#4 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
+#5 {main}
+  thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 593

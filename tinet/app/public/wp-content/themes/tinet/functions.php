@@ -26,6 +26,7 @@ function tinet_styles() {
     wp_enqueue_style('style', get_stylesheet_uri(), array('bootstrap'),'1.0.0');
     wp_enqueue_script('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js', array('jquery'), '5.1.3');
     wp_enqueue_script('bxSliderJS', 'https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js', array('jquery'), '4.2.15', true);
+    wp_enqueue_script('SmoothScroll', get_template_directory_uri() .'/js/smooth-scroll.min.js', array('jquery'), '12.0.0', true);
     wp_enqueue_script('scripts', get_template_directory_uri() .'/js/scripts.js', array('jquery', 'bxSliderJS'),'1.0.0',true);
 }
 add_action('wp_enqueue_scripts','tinet_styles');
