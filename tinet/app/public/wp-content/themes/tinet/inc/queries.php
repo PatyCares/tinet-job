@@ -258,70 +258,376 @@ function beneficios() { ?>
 }
 
 
-function search_job() { ?>
+function job_tinet_destacados() { ?>
+
+    <?php
+        //$paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;  
+        //$post = get_post();
+            //return ! empty( $post ) ? $post->ID : int;
+        $args = array(
+             'post_type' => 'jobSearch',
+             'posts_per_page' => -1,
+             'orderby' => 'date',
+             'order'   => 'DESC',
+             //'paged' => $paged, 
+            ); 
+
+            
+                 $jobSearch = new WP_Query($args);
+                 while($jobSearch -> have_posts() ): $jobSearch -> the_post(); ?>
+
+            <?php 
+                $id = get_the_ID();
+                $ubicacion_oferta_laboral = get_field('ubicacion_oferta_laboral');
+                $fecha_publicacion = get_field('fecha_publicacion');
+                $funciones_del_cargo = get_field('funciones_del_cargo');
+                $requisitos = get_field('requisitos');
+                $requisitos_deseables_yo_excluyentes =get_field('requisitos_deseables_yo_excluyentes');
+                $beneficio_horarios = get_field('beneficio_horarios');
+                $beneficio_salarial = get_field('beneficio_salarial');
+                $beneficio_tipo_trabajo = get_field('beneficio_tipo_trabajo');
+                  
+            ?>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3><?php the_title(); ?></h3>
+                                        <p><?php echo $ubicacion_oferta_laboral; ?></p>
+                                        <p><?php echo $fecha_publicacion;?></p>
+                                    </div>
+                                    <div class="col-4">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Open modal</button>
+                                    <?php
+                                        //echo '<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap" value="'.get_the_ID().'">Open modal</button>'
+                                    ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+
+                        
+                    <?php modal_job(); ?>
+     
+            <?php endwhile; ?>
+            <div class="row d-flex justify-content-center">
+                <?php //wpbeginner_numeric_posts_nav($jobSearch); ?>
+            </div>
+
+<?php wp_reset_postdata(); ?>          
+<?php
+}
+
+function job_tinet_tecno() { ?>
 
     <?php  
         $args = array(
-            'post_type' => 'jobSearch',
-            'posts_per_page' => 9,
-            'order'   => 'DESC',
-             ); 
-                $jobSearch = new WP_Query($args);
-                while($jobSearch -> have_posts() ): $jobSearch -> the_post(); ?>
+             'post_type' => 'jobSearch',
+             'posts_per_page' => 9 ); 
+                 $jobSearch = new WP_Query($args);
+                 while($jobSearch -> have_posts() ): $jobSearch -> the_post(); ?>
 
-                    <?php 
-                    $ubicacion_oferta_laboral = get_field('ubicacion_oferta_laboral');
-                    $fecha_publicacion = get_field('fecha_publicacion');
-				    $funciones_del_cargo = get_field('funciones_del_cargo');
-				    $requisitos = get_field('requisitos');
-                    $requisitos_deseables_yo_excluyentes =get_field('requisitos_deseables_yo_excluyentes');
-                    $beneficio_horarios = get_field('beneficio_horarios');
-                    $beneficio_salarial = get_field('beneficio_salarial');
-				    $beneficio_tipo_trabajo = get_field('beneficio_tipo_trabajo');
-                    $categoria_del_trabajo = get_field('categoria_del_trabajo');
-                    
-                ?>
+            <?php 
+                $ubicacion_oferta_laboral = get_field('ubicacion_oferta_laboral');
+                $fecha_publicacion = get_field('fecha_publicacion');
+                $categoria_del_trabajo = get_field('categoria_del_trabajo'); ?>
 
-                    <div id="Destacados" class="tabcontent">
-                        <div class="col-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h3><?php the_title(); ?></h3>
-                                    <p><?php echo $ubicacion_oferta_laboral; ?></p>
-                                    <p><?php echo $fecha_publicacion;?></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="Tecnología" class="tabcontent">
-                        <h3>aqui va Tecnología</h3>
-                    </div>
+                
+                                <?php 
+                                 
+                                 $categoria_del_trabajo = get_field('categoria_del_trabajo');
+                                 if( $categoria_del_trabajo && in_array('tecno', $categoria_del_trabajo) ) { ?>
+                                     
+                                   <div class="card">
+                                        <div class="card-body">
+                                            <h3><?php the_title(); ?></h3>
+                                            <p><?php echo $ubicacion_oferta_laboral; ?></p>
+                                            <p><?php echo $fecha_publicacion; ?></p>
+                                        </div>
+                                   </div>      
+                                 
+                                <?php } ?>
+              
 
-                    <div id="Consultoría" class="tabcontent">
-                        <h3>aqui va Consultoría</h3>
-                    </div>
-                    
-                    <div id="Comercial" class="tabcontent">
-                        <h3>aqui va Comercial</h3>
-                    </div>
-
-                    <div id="Marketing" class="tabcontent">
-                        <h3>aqui va Marketing</h3>
-                    </div>
-
-                    <div id="Administración" class="tabcontent">
-                        <h3>aqui va Administración</h3>
-                    </div>
-
-                    <div id="BPO" class="tabcontent">
-                        <h3>aqui va BPO</h3>
-                    </div>
-
-                    <div id="Diseño" class="tabcontent">
-                        <h3>aqui va Diseño</h3>
-                    </div>
-
-            
+     
+    
             <?php endwhile; wp_reset_postdata(); ?>
 <?php
 }
+
+
+function job_tinet_consultoria() { ?>
+
+    <?php  
+        $args = array(
+             'post_type' => 'jobSearch',
+             'posts_per_page' => 9 ); 
+                 $jobSearch = new WP_Query($args);
+                 while($jobSearch -> have_posts() ): $jobSearch -> the_post(); ?>
+
+            <?php 
+                $ubicacion_oferta_laboral = get_field('ubicacion_oferta_laboral');
+                $fecha_publicacion = get_field('fecha_publicacion'); ?>
+
+                
+                                <?php 
+                                 
+                                 $categoria_del_trabajo = get_field('categoria_del_trabajo');
+                                 if( $categoria_del_trabajo && in_array('consul', $categoria_del_trabajo) ) { ?>
+                                     
+                                   <div class="card">
+                                        <div class="card-body">
+                                            <h3><?php the_title(); ?></h3>
+                                            <p><?php echo $ubicacion_oferta_laboral; ?></p>
+                                            <p><?php echo $fecha_publicacion; ?></p>
+                                        </div>
+                                   </div>      
+                                 
+                                <?php } ?>
+              
+
+     
+    
+            <?php endwhile; wp_reset_postdata(); ?>
+<?php
+}
+
+
+function job_tinet_comercial() { ?>
+
+    <?php  
+        $args = array(
+             'post_type' => 'jobSearch',
+             'posts_per_page' => 9 ); 
+                 $jobSearch = new WP_Query($args);
+                 while($jobSearch -> have_posts() ): $jobSearch -> the_post(); ?>
+
+            <?php 
+                $ubicacion_oferta_laboral = get_field('ubicacion_oferta_laboral');
+                $fecha_publicacion = get_field('fecha_publicacion'); ?>
+
+                
+                
+                            <?php 
+                                 
+                                 $categoria_del_trabajo = get_field('categoria_del_trabajo');
+                                 if( $categoria_del_trabajo && in_array('come', $categoria_del_trabajo) ) { ?>
+                                     
+                                   <div class="card">
+                                        <div class="card-body">
+                                            <h3><?php the_title(); ?></h3>
+                                            <p><?php echo $ubicacion_oferta_laboral; ?></p>
+                                            <p><?php echo $fecha_publicacion; ?></p>
+                                        </div>
+                                   </div>      
+                                 
+                                <?php } ?>
+                    
+              
+
+     
+    
+            <?php endwhile; wp_reset_postdata(); ?>
+<?php
+}
+
+
+function job_tinet_marketing() { ?>
+
+    <?php  
+        $args = array(
+             'post_type' => 'jobSearch',
+             'posts_per_page' => 9 ); 
+                 $jobSearch = new WP_Query($args);
+                 while($jobSearch -> have_posts() ): $jobSearch -> the_post(); ?>
+
+            <?php 
+                $ubicacion_oferta_laboral = get_field('ubicacion_oferta_laboral');
+                $fecha_publicacion = get_field('fecha_publicacion'); ?>
+
+                
+                
+                            <?php 
+                                 
+                                 $categoria_del_trabajo = get_field('categoria_del_trabajo');
+                                 if( $categoria_del_trabajo && in_array('mark', $categoria_del_trabajo) ) { ?>
+                                     
+                                   <div class="card">
+                                        <div class="card-body">
+                                            <h3><?php the_title(); ?></h3>
+                                            <p><?php echo $ubicacion_oferta_laboral; ?></p>
+                                            <p><?php echo $fecha_publicacion; ?></p>
+                                        </div>
+                                   </div>      
+                                 
+                                <?php } ?>
+                    
+              
+
+     
+    
+            <?php endwhile; wp_reset_postdata(); ?>
+<?php
+}
+
+function job_tinet_admin() { ?>
+
+    <?php  
+        $args = array(
+             'post_type' => 'jobSearch',
+             'posts_per_page' => 9 ); 
+                 $jobSearch = new WP_Query($args);
+                 while($jobSearch -> have_posts() ): $jobSearch -> the_post(); ?>
+
+            <?php 
+                $ubicacion_oferta_laboral = get_field('ubicacion_oferta_laboral');
+                $fecha_publicacion = get_field('fecha_publicacion'); ?>
+
+                
+                
+                            <?php 
+                                 
+                                 $categoria_del_trabajo = get_field('categoria_del_trabajo');
+                                 if( $categoria_del_trabajo && in_array('admin', $categoria_del_trabajo) ) { ?>
+                                     
+                                   <div class="card">
+                                        <div class="card-body">
+                                            <h3><?php the_title(); ?></h3>
+                                            <p><?php echo $ubicacion_oferta_laboral; ?></p>
+                                            <p><?php echo $fecha_publicacion; ?></p>
+                                        </div>
+                                   </div>      
+                                 
+                                <?php } ?>
+                    
+              
+
+     
+    
+            <?php endwhile; wp_reset_postdata(); ?>
+<?php
+}
+
+function job_tinet_bpo() { ?>
+
+    <?php  
+        $args = array(
+             'post_type' => 'jobSearch',
+             'posts_per_page' => 9 ); 
+                 $jobSearch = new WP_Query($args);
+                 while($jobSearch -> have_posts() ): $jobSearch -> the_post(); ?>
+
+            <?php 
+                $ubicacion_oferta_laboral = get_field('ubicacion_oferta_laboral');
+                $fecha_publicacion = get_field('fecha_publicacion'); ?>
+
+                
+                
+                            <?php 
+                                 
+                                 $categoria_del_trabajo = get_field('categoria_del_trabajo');
+                                 if( $categoria_del_trabajo && in_array('bpo', $categoria_del_trabajo) ) { ?>
+                                     
+                                   <div class="card">
+                                        <div class="card-body">
+                                            <h3><?php the_title(); ?></h3>
+                                            <p><?php echo $ubicacion_oferta_laboral; ?></p>
+                                            <p><?php echo $fecha_publicacion; ?></p>
+                                        </div>
+                                   </div>      
+                                 
+                                <?php } ?>
+                    
+              
+
+     
+    
+            <?php endwhile; wp_reset_postdata(); ?>
+<?php
+}
+
+
+function job_tinet_diseño() { ?>
+
+    <?php  
+        $args = array(
+             'post_type' => 'jobSearch',
+             'posts_per_page' => -1 ); 
+                 $jobSearch = new WP_Query($args);
+                 while($jobSearch -> have_posts() ): $jobSearch -> the_post(); ?>
+
+            <?php 
+                $ubicacion_oferta_laboral = get_field('ubicacion_oferta_laboral');
+                $fecha_publicacion = get_field('fecha_publicacion'); ?>
+
+                
+                
+                            <?php 
+                                 
+                                 $categoria_del_trabajo = get_field('categoria_del_trabajo');
+                                 if( $categoria_del_trabajo && in_array('dise', $categoria_del_trabajo) ) { ?>
+                                     
+                                   <div class="card">
+                                        <div class="card-body">
+                                            <h3><?php the_title(); ?></h3>
+                                            <p><?php echo $ubicacion_oferta_laboral; ?></p>
+                                            <p><?php echo $fecha_publicacion; ?></p>
+                                        </div>
+                                   </div>      
+                                 
+                                <?php } ?>
+                    
+              
+
+     
+    
+            <?php endwhile; wp_reset_postdata(); ?>
+<?php
+}
+
+function modal_job() { ?>
+
+<?php 
+        global $post;   
+        $post->ID();
+        global $wp_query; $post_id = $wp_query->get_queried_object_id();
+        global $wp_query;  $post_id = $wp_query->post->ID;
+        get_the_ID(); 
+?>
+    
+    <?php  
+        
+         $args = array(
+              'post_type' => 'jobSearch',
+              'posts_per_page' => -1 ,
+              
+            ); 
+                  $jobSearch = new WP_Query($args);
+                  while($jobSearch -> have_posts() ): $jobSearch -> the_post(); ?>
+
+            <?php 
+                // $funciones_del_cargo = get_field('funciones_del_cargo');
+                // $requisitos = get_field('requisitos');
+                // $requisitos_deseables_yo_excluyentes =get_field('requisitos_deseables_yo_excluyentes');
+                // $beneficio_horarios = get_field('beneficio_horarios');
+                // $beneficio_salarial = get_field('beneficio_salarial');
+                // $beneficio_tipo_trabajo = get_field('beneficio_tipo_trabajo');
+                
+            ?>
+           
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                     
+
+                                </div>
+                            </div>
+                        </div>
+     
+    
+            <?php endwhile; wp_reset_postdata(); ?>
+<?php
+}
+
+                  

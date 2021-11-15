@@ -54,7 +54,7 @@
             <p>Nos interesa tu bienestar, sabemos que la vida es un torbellino y las necesidades cambian, es por esto que nuestro beneficios se centran en aquellas cosas que pueden ser importantes para ti en diferentes etapas de tu vida.</p>
         </div>
     </div>
-    <?php beneficios(); ?>  
+    <?php //beneficios(); ?>  
 </div>
 
 <div class="container mt-5">
@@ -82,23 +82,52 @@
     </div>
 
     <div class="row mt-5">
-        <div class="tab">
-                    <button class="tablinks" onclick="openCity(event, 'Destacados')" id="defaultOpen">Destacados</button>
-                    <!-- <button class="tablinks" onclick="openCity(event, 'Destacados')">Destacados</button> -->
-                    <button class="tablinks" onclick="openCity(event, 'Tecnología')">Tecnología</button>
-                    <button class="tablinks" onclick="openCity(event, 'Consultoría')">Consultoría</button>
-                    <button class="tablinks" onclick="openCity(event, 'Comercial')">Comercial</button>
-                    <button class="tablinks" onclick="openCity(event, 'Marketing')">Marketing</button>
-                    <button class="tablinks" onclick="openCity(event, 'Administración')">Administración</button>
-                    <button class="tablinks" onclick="openCity(event, 'BPO')">BPO</button>
-                    <button class="tablinks" onclick="openCity(event, 'Diseño')">Diseño</button>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="destacados-tab" data-bs-toggle="tab" data-bs-target="#destacados" type="button" role="tab" aria-controls="destacados" aria-selected="true">Destacados</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tecnologia-tab" data-bs-toggle="tab" data-bs-target="#tecnologia" type="button" role="tab" aria-controls="tecnologia" aria-selected="false">Tecnología</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="consultoria-tab" data-bs-toggle="tab" data-bs-target="#consultoria" type="button" role="tab" aria-controls="consultoria" aria-selected="false">Consultoria</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="comercial-tab" data-bs-toggle="tab" data-bs-target="#comercial" type="button" role="tab" aria-controls="comercial" aria-selected="false">Comercial</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing" type="button" role="tab" aria-controls="marketing" aria-selected="false">Marketing</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="administracion-tab" data-bs-toggle="tab" data-bs-target="#administracion" type="button" role="tab" aria-controls="administracion" aria-selected="false">Administración</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="bpo-tab" data-bs-toggle="tab" data-bs-target="#bpo" type="button" role="tab" aria-controls="bpo" aria-selected="false">BPO</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="diseno-tab" data-bs-toggle="tab" data-bs-target="#diseno" type="button" role="tab" aria-controls="diseno" aria-selected="false">Diseño</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="destacados" role="tabpanel" aria-labelledby="destacados-tab"><?php job_tinet_destacados(); ?></div>
+            <div class="tab-pane fade" id="tecnologia" role="tabpanel" aria-labelledby="tecnologia-tab"><?php job_tinet_tecno(); ?></div>
+            <div class="tab-pane fade" id="consultoria" role="tabpanel" aria-labelledby="consultoria-tab"><?php job_tinet_consultoria(); ?></div>
+            <div class="tab-pane fade" id="comercial" role="tabpanel" aria-labelledby="comercial-tab"><?php job_tinet_comercial(); ?></div>
+            <div class="tab-pane fade" id="marketing" role="tabpanel" aria-labelledby="marketing-tab"><?php job_tinet_marketing(); ?></div>
+            <div class="tab-pane fade" id="administracion" role="tabpanel" aria-labelledby="administracion-tab"><?php job_tinet_admin(); ?></div>
+            <div class="tab-pane fade" id="bpo" role="tabpanel" aria-labelledby="bpo-tab"><?php job_tinet_bpo(); ?></div>
+            <div class="tab-pane fade" id="diseno" role="tabpanel" aria-labelledby="diseno-tab"><?php job_tinet_diseño(); ?></div>
         </div>
-        
+                
     </div>
-
+    <?php //modal_job(); ?>
+    <?php //jobTinet_get_current_post_id(); ?>
+        
+                   
+         
+                   
     <div class="row">
     
-        <?php search_job(); ?>
     </div>
 </div>
 
