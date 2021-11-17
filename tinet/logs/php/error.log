@@ -904,3 +904,167 @@ Stack trace:
 #4 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
 #5 {main}
   thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 593
+[15-Nov-2021 20:32:12 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 45
+[15-Nov-2021 20:32:23 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 45
+[15-Nov-2021 20:32:25 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 45
+[15-Nov-2021 20:34:13 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 45
+[15-Nov-2021 20:35:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function my_custom_shortcode(), 0 passed in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 634 and exactly 1 expected in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php:44
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php(634): my_custom_shortcode()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php(311): modal_job()
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php(113): job_tinet_destacados()
+#3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include('/Users/paty/Doc...')
+#4 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#5 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): requ in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/functions.php on line 44
+[15-Nov-2021 20:51:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function my_custom_shortcode() in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php:634
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php(311): modal_job()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php(113): job_tinet_destacados()
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include('/Users/paty/Doc...')
+#3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#4 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
+#5 {main}
+  thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 634
+[15-Nov-2021 21:55:09 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/form-maker/framework/Cookie.php on line 80
+[15-Nov-2021 21:55:09 UTC] PHP Stack trace:
+[15-Nov-2021 21:55:09 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-cron.php:0
+[15-Nov-2021 21:55:09 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-cron.php:44
+[15-Nov-2021 21:55:09 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[15-Nov-2021 21:55:09 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[15-Nov-2021 21:55:09 UTC] PHP   5. include_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:409
+[15-Nov-2021 21:55:09 UTC] PHP   6. WDFMInstance() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/form-maker/form-maker.php:1724
+[15-Nov-2021 21:55:09 UTC] PHP   7. WDFM::instance() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/form-maker/form-maker.php:1720
+[15-Nov-2021 21:55:09 UTC] PHP   8. WDFM->__construct() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/form-maker/form-maker.php:78
+[15-Nov-2021 21:55:09 UTC] PHP   9. Cookie_fm->__construct() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/form-maker/form-maker.php:88
+[15-Nov-2021 21:55:09 UTC] PHP  10. Cookie_fm::init_cookie() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/form-maker/framework/Cookie.php:20
+[15-Nov-2021 21:55:09 UTC] PHP  11. setcookie() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/plugins/form-maker/framework/Cookie.php:80
+[15-Nov-2021 22:05:48 UTC] WordPress database error Table 'local.wp_cf_forms' doesn't exist for query SELECT * FROM wp_cf_forms WHERE `type` = 'primary' made by activate_plugin, do_action('activate_caldera-forms/caldera-core.php'), WP_Hook->do_action, WP_Hook->apply_filters, Caldera_Forms::activate_caldera_forms, caldera_forms_load, caldera_forms_get_v2_container, do_action('caldera_forms_v2_init'), WP_Hook->do_action, WP_Hook->apply_filters, caldera_forms_v2_container_setup, calderawp\calderaforms\cf2\CalderaFormsV2->registerService, calderawp\calderaforms\cf2\Services\FormsService->register, Caldera_Forms_Forms::get_forms, Caldera_Forms_Forms::get_stored_forms, Caldera_Forms_DB_Form->get_all
+[16-Nov-2021 13:47:44 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 684
+[16-Nov-2021 13:49:06 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 682
+[16-Nov-2021 13:49:07 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 682
+[16-Nov-2021 13:49:24 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 682
+[16-Nov-2021 13:49:24 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 682
+[16-Nov-2021 15:50:38 UTC] PHP Fatal error:  Cannot redeclare modal_job() (previously declared in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php:586) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 735
+[16-Nov-2021 15:50:38 UTC] PHP Stack trace:
+[16-Nov-2021 15:50:38 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:0
+[16-Nov-2021 15:50:38 UTC] PHP   2. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/admin-ajax.php:22
+[16-Nov-2021 15:50:38 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-load.php:50
+[16-Nov-2021 15:50:38 UTC] PHP   4. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-config.php:77
+[16-Nov-2021 15:50:38 UTC] PHP   5. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-settings.php:546
+[16-Nov-2021 15:52:39 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 683
+[16-Nov-2021 15:56:41 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 683
+[16-Nov-2021 19:25:03 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 63
+[16-Nov-2021 19:25:04 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/queries.php on line 63
+[16-Nov-2021 19:26:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Bono HoneyMoon() in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/beneficios.php:50
+Stack trace:
+#0 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php(58): beneficios()
+#1 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php(106): include('/Users/paty/Doc...')
+#2 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php(19): require_once('/Users/paty/Doc...')
+#3 /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php(17): require('/Users/paty/Doc...')
+#4 {main}
+  thrown in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/beneficios.php on line 50
+[17-Nov-2021 00:57:21 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 46
+[17-Nov-2021 00:57:21 UTC] PHP Stack trace:
+[17-Nov-2021 00:57:21 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[17-Nov-2021 00:57:21 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[17-Nov-2021 00:57:21 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:19
+[17-Nov-2021 00:57:21 UTC] PHP   4. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php:106
+[17-Nov-2021 00:57:21 UTC] PHP   5. job_tinet_destacados() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php:114
+[17-Nov-2021 00:57:21 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 46
+[17-Nov-2021 00:57:21 UTC] PHP Stack trace:
+[17-Nov-2021 00:57:21 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[17-Nov-2021 00:57:21 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[17-Nov-2021 00:57:21 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:19
+[17-Nov-2021 00:57:21 UTC] PHP   4. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php:106
+[17-Nov-2021 00:57:21 UTC] PHP   5. job_tinet_destacados() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php:114
+[17-Nov-2021 00:57:21 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 46
+[17-Nov-2021 00:57:21 UTC] PHP Stack trace:
+[17-Nov-2021 00:57:21 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[17-Nov-2021 00:57:21 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[17-Nov-2021 00:57:21 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:19
+[17-Nov-2021 00:57:21 UTC] PHP   4. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php:106
+[17-Nov-2021 00:57:21 UTC] PHP   5. job_tinet_destacados() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php:114
+[17-Nov-2021 00:57:21 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 46
+[17-Nov-2021 00:57:21 UTC] PHP Stack trace:
+[17-Nov-2021 00:57:21 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[17-Nov-2021 00:57:21 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[17-Nov-2021 00:57:21 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:19
+[17-Nov-2021 00:57:21 UTC] PHP   4. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php:106
+[17-Nov-2021 00:57:21 UTC] PHP   5. job_tinet_destacados() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php:114
+[17-Nov-2021 00:57:21 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 46
+[17-Nov-2021 00:57:21 UTC] PHP Stack trace:
+[17-Nov-2021 00:57:21 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[17-Nov-2021 00:57:21 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[17-Nov-2021 00:57:21 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:19
+[17-Nov-2021 00:57:21 UTC] PHP   4. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php:106
+[17-Nov-2021 00:57:21 UTC] PHP   5. job_tinet_destacados() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php:114
+[17-Nov-2021 00:57:21 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 46
+[17-Nov-2021 00:57:21 UTC] PHP Stack trace:
+[17-Nov-2021 00:57:21 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[17-Nov-2021 00:57:21 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[17-Nov-2021 00:57:21 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:19
+[17-Nov-2021 00:57:21 UTC] PHP   4. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php:106
+[17-Nov-2021 00:57:21 UTC] PHP   5. job_tinet_destacados() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php:114
+[17-Nov-2021 00:57:21 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 46
+[17-Nov-2021 00:57:21 UTC] PHP Stack trace:
+[17-Nov-2021 00:57:21 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[17-Nov-2021 00:57:21 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[17-Nov-2021 00:57:21 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:19
+[17-Nov-2021 00:57:21 UTC] PHP   4. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php:106
+[17-Nov-2021 00:57:21 UTC] PHP   5. job_tinet_destacados() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php:114
+[17-Nov-2021 00:57:21 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 46
+[17-Nov-2021 00:57:21 UTC] PHP Stack trace:
+[17-Nov-2021 00:57:21 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[17-Nov-2021 00:57:21 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[17-Nov-2021 00:57:21 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:19
+[17-Nov-2021 00:57:21 UTC] PHP   4. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php:106
+[17-Nov-2021 00:57:21 UTC] PHP   5. job_tinet_destacados() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php:114
+[17-Nov-2021 00:57:21 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 46
+[17-Nov-2021 00:57:21 UTC] PHP Stack trace:
+[17-Nov-2021 00:57:21 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[17-Nov-2021 00:57:21 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[17-Nov-2021 00:57:21 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:19
+[17-Nov-2021 00:57:21 UTC] PHP   4. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php:106
+[17-Nov-2021 00:57:21 UTC] PHP   5. job_tinet_destacados() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php:114
+[17-Nov-2021 00:57:21 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 46
+[17-Nov-2021 00:57:21 UTC] PHP Stack trace:
+[17-Nov-2021 00:57:21 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[17-Nov-2021 00:57:21 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[17-Nov-2021 00:57:21 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:19
+[17-Nov-2021 00:57:21 UTC] PHP   4. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php:106
+[17-Nov-2021 00:57:21 UTC] PHP   5. job_tinet_destacados() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php:114
+[17-Nov-2021 00:57:21 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 46
+[17-Nov-2021 00:57:21 UTC] PHP Stack trace:
+[17-Nov-2021 00:57:21 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[17-Nov-2021 00:57:21 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[17-Nov-2021 00:57:21 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:19
+[17-Nov-2021 00:57:21 UTC] PHP   4. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php:106
+[17-Nov-2021 00:57:21 UTC] PHP   5. job_tinet_destacados() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php:114
+[17-Nov-2021 00:57:21 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 46
+[17-Nov-2021 00:57:21 UTC] PHP Stack trace:
+[17-Nov-2021 00:57:21 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:0
+[17-Nov-2021 00:57:21 UTC] PHP   2. require() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/index.php:17
+[17-Nov-2021 00:57:21 UTC] PHP   3. require_once() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-blog-header.php:19
+[17-Nov-2021 00:57:21 UTC] PHP   4. include() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/template-loader.php:106
+[17-Nov-2021 00:57:21 UTC] PHP   5. job_tinet_destacados() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/front-page.php:114
+[17-Nov-2021 00:58:37 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 41
+[17-Nov-2021 00:58:38 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 41
+[17-Nov-2021 00:58:47 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 41
+[17-Nov-2021 00:58:47 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 41
+[17-Nov-2021 00:58:52 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 41
+[17-Nov-2021 00:58:53 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 41
+[17-Nov-2021 00:58:55 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-content/themes/tinet/inc/tinet-job.php on line 41
+[17-Nov-2021 04:00:56 UTC] PHP Warning:  Ha ocurrido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://es.wordpress.org/support/">foros de soporte</a>. (WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor). in /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/update.php on line 413
+[17-Nov-2021 04:00:56 UTC] PHP Stack trace:
+[17-Nov-2021 04:00:56 UTC] PHP   1. {main}() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-cron.php:0
+[17-Nov-2021 04:00:56 UTC] PHP   2. do_action_ref_array() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-cron.php:138
+[17-Nov-2021 04:00:56 UTC] PHP   3. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:518
+[17-Nov-2021 04:00:56 UTC] PHP   4. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[17-Nov-2021 04:00:56 UTC] PHP   5. wp_version_check() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:303
+[17-Nov-2021 04:00:56 UTC] PHP   6. do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/update.php:256
+[17-Nov-2021 04:00:56 UTC] PHP   7. WP_Hook->do_action() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/plugin.php:470
+[17-Nov-2021 04:00:56 UTC] PHP   8. WP_Hook->apply_filters() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:327
+[17-Nov-2021 04:00:56 UTC] PHP   9. wp_maybe_auto_update() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/class-wp-hook.php:303
+[17-Nov-2021 04:00:56 UTC] PHP  10. WP_Automatic_Updater->run() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/update.php:729
+[17-Nov-2021 04:00:56 UTC] PHP  11. wp_update_plugins() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-admin/includes/class-wp-automatic-updater.php:509
+[17-Nov-2021 04:00:56 UTC] PHP  12. trigger_error() /Users/paty/Documents/tinet/tinet-job/tinet/app/public/wp-includes/update.php:413

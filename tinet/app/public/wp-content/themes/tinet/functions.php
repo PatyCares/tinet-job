@@ -2,6 +2,13 @@
 
 // Consultas reutilizables 
 require get_template_directory() . '/inc/queries.php';
+require get_template_directory() . '/inc/slider-principal.php';
+require get_template_directory() . '/inc/cultura-tinet.php';
+require get_template_directory() . '/inc/nuestra-exp.php';
+require get_template_directory() . '/inc/tinet-way.php';
+require get_template_directory() . '/inc/cultura-viva.php';
+require get_template_directory() . '/inc/beneficios.php';
+require get_template_directory() . '/inc/tinet-job.php';
 
 
 function tinet_setup(){
@@ -11,7 +18,7 @@ function tinet_setup(){
       //Tamaños personalizados
       add_image_size( 'cajas', 400, 375, true );
       add_image_size( 'mediano', 700, 400, true );
-      add_image_size( 'blog', 966, 644, true );
+      add_image_size( 'blog', 1400, 644, true );
 
 }
 add_action('after_setup_theme', 'tinet_setup');
@@ -39,7 +46,6 @@ function tinet_menus() {
     ));
 }
 add_action('init', 'tinet_menus');
-
 
 
 //Paginación de entradas

@@ -26,4 +26,40 @@ triggerTabList.forEach(function (triggerEl) {
   })
 })
 
-          
+
+smoothScroll.init({
+  selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+  selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+  speed: 1000, // Integer. How fast to complete the scroll in milliseconds
+  easing: 'easeInOutCubic', // Easing pattern to use
+  offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+  callback: function ( anchor, toggle ) {} // Function to run after scrolling
+});
+
+
+
+window.addEventListener('DOMContentLoaded', (event) => {
+        
+  jQuery('.btn-modal').on('click', function(el){
+
+      const id = jQuery(this).data('id');
+      console.log(id)
+
+  });
+
+});
+
+//modal
+// const openModal = document.querySelector('.hero__cta');
+// const modal = document.querySelector('.modal-jobl');
+// const closeModal = document.querySelector('.modal__close');
+
+// openModal.addEventListener('click', (e)=>{
+//     e.preventDefault();
+//     modal.classList.add('modal--show');
+// });
+
+// closeModal.addEventListener('click', (e)=>{
+//     e.preventDefault();
+//     modal.classList.remove('modal--show');
+// });       

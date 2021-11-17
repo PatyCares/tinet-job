@@ -6,20 +6,18 @@
     <?php wp_head(); ?>
 
     <script>
-      smoothScroll.init({
-      selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
-      selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
-      speed: 2000, // Integer. How fast to complete the scroll in milliseconds
-      easing: 'easeInOutCubic', // Easing pattern to use
-      offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
-      callback: function ( anchor, toggle ) {} // Function to run after scrolling
-      });
+    
+    </script>
+
+
+    <script>
+
     </script>
 </head>
 <body>
     
        
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container">
     <div class="navbar-brand" href="#">
         <img src="<?php echo get_template_directory_uri() ?>/img/logo.svg" alt="" style='width: 118px'>

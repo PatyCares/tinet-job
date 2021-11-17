@@ -11,7 +11,7 @@
     <div class="row" id="secCultura">
         <div class="col-12 text-center">
             <h1>Nuestra cultura nos hace Imparables</h1>
-            <p>Nos adaptamos, cambiamos y mejoramos, pero nuestra cultura es nuestra mantra.</p>
+            <p>Nos adaptamos, cambiamos y mejoramos, pero nuestra cultura es nuestro mantra.</p>
         </div>
     </div>
     <div class="row">
@@ -55,7 +55,7 @@
             <p>Nos interesa tu bienestar, sabemos que la vida es un torbellino y las necesidades cambian, es por esto que nuestro beneficios se centran en aquellas cosas que pueden ser importantes para ti en diferentes etapas de tu vida.</p>
         </div>
     </div>
-    <?php //beneficios(); ?>  
+    <?php beneficios(); ?>  
 </div>
 
 <div class="container mt-5">
@@ -77,9 +77,10 @@
     </div>
 
     <div class="row">
-        <div class="seachr" style="border: 1px solid grey; width: 50rem;">
-           busca la oferta del perfil
-        </div>
+    <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
 
     <div class="row mt-5">
@@ -109,7 +110,7 @@
                 <button class="nav-link" id="diseno-tab" data-bs-toggle="tab" data-bs-target="#diseno" type="button" role="tab" aria-controls="diseno" aria-selected="false">Diseño</button>
             </li>
         </ul>
-        <div class="tab-content" id="myTabContent">
+        <div class="tab-content d-inline" id="myTabContent">
             <div class="tab-pane fade show active" id="destacados" role="tabpanel" aria-labelledby="destacados-tab"><?php job_tinet_destacados(); ?></div>
             <div class="tab-pane fade" id="tecnologia" role="tabpanel" aria-labelledby="tecnologia-tab"><?php job_tinet_tecno(); ?></div>
             <div class="tab-pane fade" id="consultoria" role="tabpanel" aria-labelledby="consultoria-tab"><?php job_tinet_consultoria(); ?></div>
@@ -121,17 +122,40 @@
         </div>
                 
     </div>
-    <?php //modal_job(); ?>
-    <?php //jobTinet_get_current_post_id(); ?>
-        
-                   
-         
-                   
-    <div class="row">
     
+    <div class="row">
+    <?php modal_job(); ?>
+    </div>
+
+    <div class="row mt-5">
+        <div class="d-flex justify-content-center">
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sendCV">
+  Envíanos tu CV
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="sendCV" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h5 class="" id="exampleModalLabel">¡Para nosotros es un gusto conocerte!</h5></br>
+        <p>Envía tu CV o compartenos tu perfil en linkedin.</p>
+            <?php echo do_shortcode( '[caldera_form id="CF61942416570b3"]' ); ?>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
     </div>
 </div>
-
 
 <?php get_footer();
 
