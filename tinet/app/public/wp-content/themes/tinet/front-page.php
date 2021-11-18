@@ -1,5 +1,12 @@
 <?php get_header(); ?>
 
+
+<section id="content" class="col">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quam! Illo ullam, corrupti corporis voluptate odio commodi dolorem delectus inventore libero alias aliquid, nam reprehenderit ipsum deserunt eligendi facilis magni!
+</section>
+
+
+
 <div class="container">
     <div class="row carrusel">
         <?php slider_principal(); ?>
@@ -156,6 +163,8 @@
         </div>
     </div>
 </div>
+
+
 
 <?php get_footer();
 
